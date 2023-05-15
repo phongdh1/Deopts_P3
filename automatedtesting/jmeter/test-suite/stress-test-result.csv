@@ -1,0 +1,811 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1667989317840,89,GET All Activities,200,OK,Stress Test 1-2,text,true,,3109,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,89,0,71
+1667989317625,304,GET All Activities,200,OK,Stress Test 1-1,text,true,,3109,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,304,0,286
+1667989317931,3,GET Activity By Id,200,OK,Stress Test 1-1,text,true,,352,185,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,3,0,0
+1667989317931,3,GET Activity By Id,200,OK,Stress Test 1-2,text,true,,351,185,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,3,0,0
+1667989317935,6,CREATE Activity,200,OK,Stress Test 1-2,text,true,,262,311,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,6,0,0
+1667989317935,6,CREATE Activity,200,OK,Stress Test 1-1,text,true,,262,310,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,6,0,0
+1667989317942,2,UPDATE Activity,200,OK,Stress Test 1-2,text,true,,262,312,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,2,0,0
+1667989317942,2,UPDATE Activity,200,OK,Stress Test 1-1,text,true,,262,311,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,2,0,0
+1667989317945,2,DELETE Activity,200,OK,Stress Test 1-2,,true,,211,207,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,2,0,0
+1667989317945,2,DELETE Activity,200,OK,Stress Test 1-1,,true,,211,207,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,2,0,0
+1667989317948,18,GET All Books,200,OK,Stress Test 1-2,text,true,,97449,178,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books,11,0,0
+1667989317948,18,GET All Books,200,OK,Stress Test 1-1,text,true,,97452,178,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books,11,0,0
+1667989317966,6,GET Book By Id,200,OK,Stress Test 1-1,text,true,,741,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,6,0,0
+1667989317966,7,GET Book By Id,200,OK,Stress Test 1-2,text,true,,741,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,7,0,0
+1667989317973,1,CREATE Book,200,OK,Stress Test 1-1,text,true,,407,380,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989317973,2,CREATE Book,200,OK,Stress Test 1-2,text,true,,408,380,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989317976,2,UPDATE Book,200,OK,Stress Test 1-2,text,true,,408,381,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,2,0,0
+1667989317975,3,UPDATE Book,200,OK,Stress Test 1-1,text,true,,407,381,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,3,0,0
+1667989317979,2,DELETE Book,200,OK,Stress Test 1-1,,true,,211,202,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,2,0,0
+1667989317978,3,DELETE Book,200,OK,Stress Test 1-2,,true,,211,202,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,3,0,0
+1667989317981,3,GET All Users,200,OK,Stress Test 1-1,text,true,,784,178,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users,3,0,0
+1667989317981,3,GET All Users,200,OK,Stress Test 1-2,text,true,,784,178,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users,3,0,0
+1667989317984,4,GET User By Id,200,OK,Stress Test 1-1,text,true,,310,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,4,0,0
+1667989317984,4,GET User By Id,200,OK,Stress Test 1-2,text,true,,310,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,4,0,0
+1667989317988,2,CREATE User,200,OK,Stress Test 1-1,text,true,,315,272,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989317988,2,CREATE User,200,OK,Stress Test 1-2,text,true,,315,272,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989317991,2,UPDATE User,200,OK,Stress Test 1-2,text,true,,315,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,2,0,0
+1667989317991,2,UPDATE User,200,OK,Stress Test 1-1,text,true,,315,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,2,0,0
+1667989317994,2,DELETE User,200,OK,Stress Test 1-2,,true,,211,202,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,2,0,0
+1667989317994,2,DELETE User,200,OK,Stress Test 1-1,,true,,211,202,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,2,0,0
+1667989317997,7,GET All Authors,200,OK,Stress Test 1-2,text,true,,47615,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,6,0,0
+1667989317997,7,GET All Authors,200,OK,Stress Test 1-1,text,true,,47615,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,6,0,0
+1667989318005,4,GET Author By Id,200,OK,Stress Test 1-2,text,true,,330,182,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,4,0,0
+1667989318005,5,GET Author By Id,200,OK,Stress Test 1-1,text,true,,330,182,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,5,0,0
+1667989318010,3,CREATE Author,200,OK,Stress Test 1-1,text,true,,321,285,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989318010,4,CREATE Author,200,OK,Stress Test 1-2,text,true,,321,285,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,4,0,0
+1667989318014,4,UPDATE Author,200,OK,Stress Test 1-1,text,true,,321,286,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,4,0,0
+1667989318015,3,UPDATE Author,200,OK,Stress Test 1-2,text,true,,321,286,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,3,0,0
+1667989318019,2,DELETE Author,200,OK,Stress Test 1-1,,true,,211,204,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,2,0,0
+1667989318019,2,DELETE Author,200,OK,Stress Test 1-2,,true,,211,204,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,2,0,0
+1667989318022,4,Get All Author By IDBook,200,OK,Stress Test 1-2,text,true,,477,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/authors/books/2,4,0,0
+1667989318022,4,Get All Author By IDBook,200,OK,Stress Test 1-1,text,true,,477,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/authors/books/1,4,0,0
+1667989318026,5,GET All Cover Photos,200,OK,Stress Test 1-2,text,true,,20739,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,5,0,0
+1667989318026,6,GET All Cover Photos,200,OK,Stress Test 1-1,text,true,,20739,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,6,0,0
+1667989318031,4,GET Cover Photo By Id,200,OK,Stress Test 1-2,text,true,,356,186,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,4,0,0
+1667989318032,3,GET Cover Photo By Id,200,OK,Stress Test 1-1,text,true,,356,186,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,3,0,0
+1667989318035,3,CREATE Cover Photo,200,OK,Stress Test 1-2,text,true,,310,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989318035,3,CREATE Cover Photo,200,OK,Stress Test 1-1,text,true,,310,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989318038,2,UPDATE Cover Photo,200,OK,Stress Test 1-1,text,true,,310,274,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,2,0,0
+1667989318038,2,UPDATE Cover Photo,200,OK,Stress Test 1-2,text,true,,310,274,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,2,0,0
+1667989318041,1,DELETE Cover Photo,200,OK,Stress Test 1-1,,true,,211,208,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989318041,1,DELETE Cover Photo,200,OK,Stress Test 1-2,,true,,211,208,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989318043,3,Get All Cover Photos By IDBook,200,OK,Stress Test 1-2,text,true,,358,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/books/covers/2,3,0,0
+1667989318043,3,Get All Cover Photos By IDBook,200,OK,Stress Test 1-1,text,true,,358,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/books/covers/1,3,0,0
+1667989318172,15,GET All Activities,200,OK,Stress Test 1-3,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,14,0,13
+1667989318187,2,GET Activity By Id,200,OK,Stress Test 1-3,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,2,0,0
+1667989318189,2,CREATE Activity,200,OK,Stress Test 1-3,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989318191,1,UPDATE Activity,200,OK,Stress Test 1-3,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989318193,1,DELETE Activity,200,OK,Stress Test 1-3,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989318194,6,GET All Books,200,OK,Stress Test 1-3,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989318201,4,GET Book By Id,200,OK,Stress Test 1-3,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,4,0,0
+1667989318205,1,CREATE Book,200,OK,Stress Test 1-3,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989318207,2,UPDATE Book,200,OK,Stress Test 1-3,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,2,0,0
+1667989318209,1,DELETE Book,200,OK,Stress Test 1-3,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989318210,2,GET All Users,200,OK,Stress Test 1-3,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989318212,2,GET User By Id,200,OK,Stress Test 1-3,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,2,0,0
+1667989318215,1,CREATE User,200,OK,Stress Test 1-3,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989318216,2,UPDATE User,200,OK,Stress Test 1-3,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,2,0,0
+1667989318218,1,DELETE User,200,OK,Stress Test 1-3,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989318220,3,GET All Authors,200,OK,Stress Test 1-3,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989318223,2,GET Author By Id,200,OK,Stress Test 1-3,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,2,0,0
+1667989318226,1,CREATE Author,200,OK,Stress Test 1-3,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989318227,2,UPDATE Author,200,OK,Stress Test 1-3,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,2,0,0
+1667989318229,2,DELETE Author,200,OK,Stress Test 1-3,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,2,0,0
+1667989318231,2,Get All Author By IDBook,200,OK,Stress Test 1-3,text,true,,477,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/3,2,0,0
+1667989318233,3,GET All Cover Photos,200,OK,Stress Test 1-3,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,3,0,0
+1667989318236,3,GET Cover Photo By Id,200,OK,Stress Test 1-3,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,3,0,0
+1667989318239,1,CREATE Cover Photo,200,OK,Stress Test 1-3,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989318241,2,UPDATE Cover Photo,200,OK,Stress Test 1-3,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,2,0,0
+1667989318243,2,DELETE Cover Photo,200,OK,Stress Test 1-3,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,2,0,0
+1667989318245,3,Get All Cover Photos By IDBook,200,OK,Stress Test 1-3,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/3,2,0,0
+1667989318510,14,GET All Activities,200,OK,Stress Test 1-4,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,14,0,13
+1667989318524,3,GET Activity By Id,200,OK,Stress Test 1-4,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,3,0,0
+1667989318527,2,CREATE Activity,200,OK,Stress Test 1-4,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989318529,2,UPDATE Activity,200,OK,Stress Test 1-4,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,2,0,0
+1667989318531,1,DELETE Activity,200,OK,Stress Test 1-4,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989318533,6,GET All Books,200,OK,Stress Test 1-4,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989318539,5,GET Book By Id,200,OK,Stress Test 1-4,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,5,0,0
+1667989318544,2,CREATE Book,200,OK,Stress Test 1-4,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989318546,2,UPDATE Book,200,OK,Stress Test 1-4,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,2,0,0
+1667989318549,1,DELETE Book,200,OK,Stress Test 1-4,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989318550,1,GET All Users,200,OK,Stress Test 1-4,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989318552,1,GET User By Id,200,OK,Stress Test 1-4,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989318554,2,CREATE User,200,OK,Stress Test 1-4,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989318556,2,UPDATE User,200,OK,Stress Test 1-4,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,2,0,0
+1667989318558,2,DELETE User,200,OK,Stress Test 1-4,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,2,0,0
+1667989318560,4,GET All Authors,200,OK,Stress Test 1-4,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989318564,2,GET Author By Id,200,OK,Stress Test 1-4,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,2,0,0
+1667989318567,2,CREATE Author,200,OK,Stress Test 1-4,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989318569,2,UPDATE Author,200,OK,Stress Test 1-4,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,2,0,0
+1667989318571,2,DELETE Author,200,OK,Stress Test 1-4,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,2,0,0
+1667989318573,2,Get All Author By IDBook,200,OK,Stress Test 1-4,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/4,2,0,0
+1667989318576,2,GET All Cover Photos,200,OK,Stress Test 1-4,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989318578,2,GET Cover Photo By Id,200,OK,Stress Test 1-4,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,2,0,0
+1667989318580,1,CREATE Cover Photo,200,OK,Stress Test 1-4,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989318581,2,UPDATE Cover Photo,200,OK,Stress Test 1-4,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,2,0,0
+1667989318583,1,DELETE Cover Photo,200,OK,Stress Test 1-4,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989318584,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-4,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/4,2,0,0
+1667989318838,12,GET All Activities,200,OK,Stress Test 1-5,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,11
+1667989318851,2,GET Activity By Id,200,OK,Stress Test 1-5,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,2,0,0
+1667989318853,2,CREATE Activity,200,OK,Stress Test 1-5,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989318855,2,UPDATE Activity,200,OK,Stress Test 1-5,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989318857,1,DELETE Activity,200,OK,Stress Test 1-5,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989318858,6,GET All Books,200,OK,Stress Test 1-5,text,true,,97477,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989318864,4,GET Book By Id,200,OK,Stress Test 1-5,text,true,,740,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,4,0,0
+1667989318868,2,CREATE Book,200,OK,Stress Test 1-5,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989318870,1,UPDATE Book,200,OK,Stress Test 1-5,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989318872,1,DELETE Book,200,OK,Stress Test 1-5,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989318873,2,GET All Users,200,OK,Stress Test 1-5,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989318875,2,GET User By Id,200,OK,Stress Test 1-5,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,2,0,0
+1667989318877,1,CREATE User,200,OK,Stress Test 1-5,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989318878,2,UPDATE User,200,OK,Stress Test 1-5,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,2,0,0
+1667989318880,2,DELETE User,200,OK,Stress Test 1-5,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,2,0,0
+1667989318882,3,GET All Authors,200,OK,Stress Test 1-5,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989318886,2,GET Author By Id,200,OK,Stress Test 1-5,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,2,0,0
+1667989318889,1,CREATE Author,200,OK,Stress Test 1-5,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989318890,2,UPDATE Author,200,OK,Stress Test 1-5,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989318892,1,DELETE Author,200,OK,Stress Test 1-5,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989318893,3,Get All Author By IDBook,200,OK,Stress Test 1-5,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/5,3,0,0
+1667989318896,2,GET All Cover Photos,200,OK,Stress Test 1-5,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989318899,2,GET Cover Photo By Id,200,OK,Stress Test 1-5,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,2,0,0
+1667989318901,2,CREATE Cover Photo,200,OK,Stress Test 1-5,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989318903,2,UPDATE Cover Photo,200,OK,Stress Test 1-5,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,2,0,0
+1667989318905,1,DELETE Cover Photo,200,OK,Stress Test 1-5,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989318907,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-5,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/5,2,0,0
+1667989319170,14,GET All Activities,200,OK,Stress Test 1-6,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,14,0,13
+1667989319184,2,GET Activity By Id,200,OK,Stress Test 1-6,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,2,0,0
+1667989319186,2,CREATE Activity,200,OK,Stress Test 1-6,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989319188,2,UPDATE Activity,200,OK,Stress Test 1-6,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,2,0,0
+1667989319190,1,DELETE Activity,200,OK,Stress Test 1-6,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989319191,7,GET All Books,200,OK,Stress Test 1-6,text,true,,97431,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989319198,43,GET Book By Id,200,OK,Stress Test 1-6,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,43,0,0
+1667989319241,2,CREATE Book,200,OK,Stress Test 1-6,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989319244,1,UPDATE Book,200,OK,Stress Test 1-6,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989319245,1,DELETE Book,200,OK,Stress Test 1-6,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989319247,1,GET All Users,200,OK,Stress Test 1-6,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319248,2,GET User By Id,200,OK,Stress Test 1-6,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,2,0,0
+1667989319250,1,CREATE User,200,OK,Stress Test 1-6,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319252,1,UPDATE User,200,OK,Stress Test 1-6,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989319253,2,DELETE User,200,OK,Stress Test 1-6,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,2,0,0
+1667989319255,6,GET All Authors,200,OK,Stress Test 1-6,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,5,0,0
+1667989319261,3,GET Author By Id,200,OK,Stress Test 1-6,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,3,0,0
+1667989319264,1,CREATE Author,200,OK,Stress Test 1-6,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989319265,2,UPDATE Author,200,OK,Stress Test 1-6,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,2,0,0
+1667989319267,1,DELETE Author,200,OK,Stress Test 1-6,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989319268,2,Get All Author By IDBook,200,OK,Stress Test 1-6,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/6,2,0,0
+1667989319270,3,GET All Cover Photos,200,OK,Stress Test 1-6,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989319273,2,GET Cover Photo By Id,200,OK,Stress Test 1-6,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,2,0,0
+1667989319275,1,CREATE Cover Photo,200,OK,Stress Test 1-6,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989319276,2,UPDATE Cover Photo,200,OK,Stress Test 1-6,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,2,0,0
+1667989319278,1,DELETE Cover Photo,200,OK,Stress Test 1-6,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989319279,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-6,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/6,2,0,0
+1667989319502,15,GET All Activities,200,OK,Stress Test 1-7,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,15,0,14
+1667989319517,2,GET Activity By Id,200,OK,Stress Test 1-7,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989319520,1,CREATE Activity,200,OK,Stress Test 1-7,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989319521,2,UPDATE Activity,200,OK,Stress Test 1-7,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989319523,2,DELETE Activity,200,OK,Stress Test 1-7,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989319525,5,GET All Books,200,OK,Stress Test 1-7,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989319530,4,GET Book By Id,200,OK,Stress Test 1-7,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,4,0,0
+1667989319534,1,CREATE Book,200,OK,Stress Test 1-7,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989319536,1,UPDATE Book,200,OK,Stress Test 1-7,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989319537,1,DELETE Book,200,OK,Stress Test 1-7,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989319539,1,GET All Users,200,OK,Stress Test 1-7,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319540,2,GET User By Id,200,OK,Stress Test 1-7,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,2,0,0
+1667989319542,1,CREATE User,200,OK,Stress Test 1-7,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319543,1,UPDATE User,200,OK,Stress Test 1-7,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989319544,1,DELETE User,200,OK,Stress Test 1-7,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989319545,3,GET All Authors,200,OK,Stress Test 1-7,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989319548,2,GET Author By Id,200,OK,Stress Test 1-7,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,2,0,0
+1667989319550,1,CREATE Author,200,OK,Stress Test 1-7,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989319551,2,UPDATE Author,200,OK,Stress Test 1-7,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,2,0,0
+1667989319553,1,DELETE Author,200,OK,Stress Test 1-7,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989319554,2,Get All Author By IDBook,200,OK,Stress Test 1-7,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/7,2,0,0
+1667989319556,2,GET All Cover Photos,200,OK,Stress Test 1-7,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989319558,2,GET Cover Photo By Id,200,OK,Stress Test 1-7,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,2,0,0
+1667989319560,1,CREATE Cover Photo,200,OK,Stress Test 1-7,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989319561,2,UPDATE Cover Photo,200,OK,Stress Test 1-7,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,2,0,0
+1667989319563,1,DELETE Cover Photo,200,OK,Stress Test 1-7,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989319564,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-7,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/7,1,0,0
+1667989319858,13,GET All Activities,200,OK,Stress Test 1-8,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,13,0,12
+1667989319871,2,GET Activity By Id,200,OK,Stress Test 1-8,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989319873,2,CREATE Activity,200,OK,Stress Test 1-8,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989319875,2,UPDATE Activity,200,OK,Stress Test 1-8,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989319878,1,DELETE Activity,200,OK,Stress Test 1-8,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989319879,7,GET All Books,200,OK,Stress Test 1-8,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989319886,4,GET Book By Id,200,OK,Stress Test 1-8,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,4,0,0
+1667989319890,1,CREATE Book,200,OK,Stress Test 1-8,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989319892,1,UPDATE Book,200,OK,Stress Test 1-8,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989319894,1,DELETE Book,200,OK,Stress Test 1-8,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989319895,1,GET All Users,200,OK,Stress Test 1-8,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319896,3,GET User By Id,200,OK,Stress Test 1-8,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,3,0,0
+1667989319899,1,CREATE User,200,OK,Stress Test 1-8,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989319900,2,UPDATE User,200,OK,Stress Test 1-8,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,2,0,0
+1667989319902,1,DELETE User,200,OK,Stress Test 1-8,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989319903,2,GET All Authors,200,OK,Stress Test 1-8,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989319905,2,GET Author By Id,200,OK,Stress Test 1-8,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,2,0,0
+1667989319907,2,CREATE Author,200,OK,Stress Test 1-8,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989319909,1,UPDATE Author,200,OK,Stress Test 1-8,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989319910,1,DELETE Author,200,OK,Stress Test 1-8,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989319911,2,Get All Author By IDBook,200,OK,Stress Test 1-8,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/8,2,0,0
+1667989319913,2,GET All Cover Photos,200,OK,Stress Test 1-8,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989319915,2,GET Cover Photo By Id,200,OK,Stress Test 1-8,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,2,0,0
+1667989319917,1,CREATE Cover Photo,200,OK,Stress Test 1-8,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989319919,1,UPDATE Cover Photo,200,OK,Stress Test 1-8,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989319920,1,DELETE Cover Photo,200,OK,Stress Test 1-8,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989319921,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-8,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/8,2,0,0
+1667989320174,12,GET All Activities,200,OK,Stress Test 1-9,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,10
+1667989320186,2,GET Activity By Id,200,OK,Stress Test 1-9,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,2,0,0
+1667989320189,1,CREATE Activity,200,OK,Stress Test 1-9,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989320190,1,UPDATE Activity,200,OK,Stress Test 1-9,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989320192,1,DELETE Activity,200,OK,Stress Test 1-9,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989320193,6,GET All Books,200,OK,Stress Test 1-9,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989320200,4,GET Book By Id,200,OK,Stress Test 1-9,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,4,0,0
+1667989320204,1,CREATE Book,200,OK,Stress Test 1-9,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989320205,2,UPDATE Book,200,OK,Stress Test 1-9,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,2,0,0
+1667989320207,1,DELETE Book,200,OK,Stress Test 1-9,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989320208,2,GET All Users,200,OK,Stress Test 1-9,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989320210,2,GET User By Id,200,OK,Stress Test 1-9,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,2,0,0
+1667989320212,1,CREATE User,200,OK,Stress Test 1-9,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989320213,2,UPDATE User,200,OK,Stress Test 1-9,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989320215,1,DELETE User,200,OK,Stress Test 1-9,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989320216,3,GET All Authors,200,OK,Stress Test 1-9,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989320220,2,GET Author By Id,200,OK,Stress Test 1-9,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,2,0,0
+1667989320222,1,CREATE Author,200,OK,Stress Test 1-9,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989320223,1,UPDATE Author,200,OK,Stress Test 1-9,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989320225,1,DELETE Author,200,OK,Stress Test 1-9,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989320226,2,Get All Author By IDBook,200,OK,Stress Test 1-9,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/9,2,0,0
+1667989320228,2,GET All Cover Photos,200,OK,Stress Test 1-9,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989320230,2,GET Cover Photo By Id,200,OK,Stress Test 1-9,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,2,0,0
+1667989320232,2,CREATE Cover Photo,200,OK,Stress Test 1-9,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989320234,1,UPDATE Cover Photo,200,OK,Stress Test 1-9,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989320235,1,DELETE Cover Photo,200,OK,Stress Test 1-9,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989320237,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-9,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/9,2,0,0
+1667989320502,13,GET All Activities,200,OK,Stress Test 1-10,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,13,0,12
+1667989320515,2,GET Activity By Id,200,OK,Stress Test 1-10,text,true,,353,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,2,0,0
+1667989320517,1,CREATE Activity,200,OK,Stress Test 1-10,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989320518,2,UPDATE Activity,200,OK,Stress Test 1-10,text,true,,262,315,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,2,0,0
+1667989320520,1,DELETE Activity,200,OK,Stress Test 1-10,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989320521,5,GET All Books,200,OK,Stress Test 1-10,text,true,,97509,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989320526,4,GET Book By Id,200,OK,Stress Test 1-10,text,true,,744,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,4,0,0
+1667989320530,1,CREATE Book,200,OK,Stress Test 1-10,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989320531,2,UPDATE Book,200,OK,Stress Test 1-10,text,true,,413,387,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,2,0,0
+1667989320533,1,DELETE Book,200,OK,Stress Test 1-10,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,1,0,0
+1667989320534,1,GET All Users,200,OK,Stress Test 1-10,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989320536,1,GET User By Id,200,OK,Stress Test 1-10,text,true,,313,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989320538,1,CREATE User,200,OK,Stress Test 1-10,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989320539,1,UPDATE User,200,OK,Stress Test 1-10,text,true,,318,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989320540,1,DELETE User,200,OK,Stress Test 1-10,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989320541,2,GET All Authors,200,OK,Stress Test 1-10,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989320544,1,GET Author By Id,200,OK,Stress Test 1-10,text,true,,333,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989320546,1,CREATE Author,200,OK,Stress Test 1-10,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989320547,1,UPDATE Author,200,OK,Stress Test 1-10,text,true,,325,291,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989320548,1,DELETE Author,200,OK,Stress Test 1-10,,true,,211,205,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989320549,2,Get All Author By IDBook,200,OK,Stress Test 1-10,text,true,,565,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/10,2,0,0
+1667989320551,2,GET All Cover Photos,200,OK,Stress Test 1-10,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989320553,2,GET Cover Photo By Id,200,OK,Stress Test 1-10,text,true,,360,187,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,2,0,0
+1667989320555,1,CREATE Cover Photo,200,OK,Stress Test 1-10,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989320556,2,UPDATE Cover Photo,200,OK,Stress Test 1-10,text,true,,313,278,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,2,0,0
+1667989320558,1,DELETE Cover Photo,200,OK,Stress Test 1-10,,true,,211,209,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989320559,2,Get All Cover Photos By IDBook,200,OK,Stress Test 1-10,text,true,,362,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/10,2,0,0
+1667989320837,11,GET All Activities,200,OK,Stress Test 1-11,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989320849,1,GET Activity By Id,200,OK,Stress Test 1-11,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,1,0,0
+1667989320850,1,CREATE Activity,200,OK,Stress Test 1-11,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989320851,2,UPDATE Activity,200,OK,Stress Test 1-11,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,2,0,0
+1667989320853,1,DELETE Activity,200,OK,Stress Test 1-11,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,1,0,0
+1667989320854,5,GET All Books,200,OK,Stress Test 1-11,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989320859,3,GET Book By Id,200,OK,Stress Test 1-11,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,3,0,0
+1667989320862,2,CREATE Book,200,OK,Stress Test 1-11,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989320864,1,UPDATE Book,200,OK,Stress Test 1-11,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989320865,1,DELETE Book,200,OK,Stress Test 1-11,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989320866,1,GET All Users,200,OK,Stress Test 1-11,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989320867,1,GET User By Id,200,OK,Stress Test 1-11,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,1,0,0
+1667989320868,1,CREATE User,200,OK,Stress Test 1-11,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989320870,0,UPDATE User,200,OK,Stress Test 1-11,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,0,0,0
+1667989320871,0,DELETE User,200,OK,Stress Test 1-11,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,0,0,0
+1667989320872,2,GET All Authors,200,OK,Stress Test 1-11,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989320874,1,GET Author By Id,200,OK,Stress Test 1-11,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989320876,1,CREATE Author,200,OK,Stress Test 1-11,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989320877,1,UPDATE Author,200,OK,Stress Test 1-11,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989320878,1,DELETE Author,200,OK,Stress Test 1-11,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989320879,1,Get All Author By IDBook,200,OK,Stress Test 1-11,text,true,,549,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/1,1,0,0
+1667989320880,2,GET All Cover Photos,200,OK,Stress Test 1-11,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989320882,1,GET Cover Photo By Id,200,OK,Stress Test 1-11,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989320883,1,CREATE Cover Photo,200,OK,Stress Test 1-11,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989320884,1,UPDATE Cover Photo,200,OK,Stress Test 1-11,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989320885,0,DELETE Cover Photo,200,OK,Stress Test 1-11,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,0,0,0
+1667989320886,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-11,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/1,1,0,0
+1667989321169,12,GET All Activities,200,OK,Stress Test 1-12,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,11
+1667989321181,1,GET Activity By Id,200,OK,Stress Test 1-12,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989321183,1,CREATE Activity,200,OK,Stress Test 1-12,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989321184,2,UPDATE Activity,200,OK,Stress Test 1-12,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,2,0,0
+1667989321186,1,DELETE Activity,200,OK,Stress Test 1-12,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989321187,5,GET All Books,200,OK,Stress Test 1-12,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989321192,3,GET Book By Id,200,OK,Stress Test 1-12,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,3,0,0
+1667989321195,2,CREATE Book,200,OK,Stress Test 1-12,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989321197,1,UPDATE Book,200,OK,Stress Test 1-12,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,1,0,0
+1667989321198,1,DELETE Book,200,OK,Stress Test 1-12,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,1,0,0
+1667989321199,1,GET All Users,200,OK,Stress Test 1-12,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321200,1,GET User By Id,200,OK,Stress Test 1-12,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989321201,1,CREATE User,200,OK,Stress Test 1-12,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321202,1,UPDATE User,200,OK,Stress Test 1-12,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989321203,1,DELETE User,200,OK,Stress Test 1-12,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989321204,4,GET All Authors,200,OK,Stress Test 1-12,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989321208,1,GET Author By Id,200,OK,Stress Test 1-12,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989321209,1,CREATE Author,200,OK,Stress Test 1-12,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989321210,2,UPDATE Author,200,OK,Stress Test 1-12,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,2,0,0
+1667989321212,1,DELETE Author,200,OK,Stress Test 1-12,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989321213,1,Get All Author By IDBook,200,OK,Stress Test 1-12,text,true,,405,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/2,1,0,0
+1667989321214,2,GET All Cover Photos,200,OK,Stress Test 1-12,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989321216,1,GET Cover Photo By Id,200,OK,Stress Test 1-12,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989321218,1,CREATE Cover Photo,200,OK,Stress Test 1-12,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989321219,1,UPDATE Cover Photo,200,OK,Stress Test 1-12,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989321220,2,DELETE Cover Photo,200,OK,Stress Test 1-12,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,2,0,0
+1667989321222,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-12,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/2,1,0,0
+1667989321501,12,GET All Activities,200,OK,Stress Test 1-13,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,11
+1667989321513,1,GET Activity By Id,200,OK,Stress Test 1-13,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989321515,1,CREATE Activity,200,OK,Stress Test 1-13,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989321516,2,UPDATE Activity,200,OK,Stress Test 1-13,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,2,0,0
+1667989321518,1,DELETE Activity,200,OK,Stress Test 1-13,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989321519,5,GET All Books,200,OK,Stress Test 1-13,text,true,,97358,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989321524,4,GET Book By Id,200,OK,Stress Test 1-13,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,3,0,0
+1667989321528,1,CREATE Book,200,OK,Stress Test 1-13,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989321529,1,UPDATE Book,200,OK,Stress Test 1-13,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989321531,1,DELETE Book,200,OK,Stress Test 1-13,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989321532,1,GET All Users,200,OK,Stress Test 1-13,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321533,1,GET User By Id,200,OK,Stress Test 1-13,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989321534,1,CREATE User,200,OK,Stress Test 1-13,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321535,1,UPDATE User,200,OK,Stress Test 1-13,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989321536,1,DELETE User,200,OK,Stress Test 1-13,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989321537,3,GET All Authors,200,OK,Stress Test 1-13,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989321540,1,GET Author By Id,200,OK,Stress Test 1-13,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989321541,1,CREATE Author,200,OK,Stress Test 1-13,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989321542,1,UPDATE Author,200,OK,Stress Test 1-13,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989321543,1,DELETE Author,200,OK,Stress Test 1-13,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989321544,2,Get All Author By IDBook,200,OK,Stress Test 1-13,text,true,,477,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/3,2,0,0
+1667989321546,2,GET All Cover Photos,200,OK,Stress Test 1-13,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989321548,1,GET Cover Photo By Id,200,OK,Stress Test 1-13,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989321549,1,CREATE Cover Photo,200,OK,Stress Test 1-13,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989321550,1,UPDATE Cover Photo,200,OK,Stress Test 1-13,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989321552,1,DELETE Cover Photo,200,OK,Stress Test 1-13,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989321553,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-13,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/3,1,0,0
+1667989321840,11,GET All Activities,200,OK,Stress Test 1-14,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,9
+1667989321851,1,GET Activity By Id,200,OK,Stress Test 1-14,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989321852,1,CREATE Activity,200,OK,Stress Test 1-14,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989321854,1,UPDATE Activity,200,OK,Stress Test 1-14,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989321855,1,DELETE Activity,200,OK,Stress Test 1-14,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989321856,5,GET All Books,200,OK,Stress Test 1-14,text,true,,97468,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989321861,3,GET Book By Id,200,OK,Stress Test 1-14,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,3,0,0
+1667989321864,1,CREATE Book,200,OK,Stress Test 1-14,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989321866,1,UPDATE Book,200,OK,Stress Test 1-14,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989321867,1,DELETE Book,200,OK,Stress Test 1-14,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989321868,1,GET All Users,200,OK,Stress Test 1-14,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321869,1,GET User By Id,200,OK,Stress Test 1-14,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989321870,1,CREATE User,200,OK,Stress Test 1-14,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989321871,1,UPDATE User,200,OK,Stress Test 1-14,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989321872,1,DELETE User,200,OK,Stress Test 1-14,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989321873,3,GET All Authors,200,OK,Stress Test 1-14,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989321876,2,GET Author By Id,200,OK,Stress Test 1-14,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,2,0,0
+1667989321878,1,CREATE Author,200,OK,Stress Test 1-14,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989321879,1,UPDATE Author,200,OK,Stress Test 1-14,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989321880,1,DELETE Author,200,OK,Stress Test 1-14,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989321881,1,Get All Author By IDBook,200,OK,Stress Test 1-14,text,true,,405,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/4,1,0,0
+1667989321883,1,GET All Cover Photos,200,OK,Stress Test 1-14,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989321884,2,GET Cover Photo By Id,200,OK,Stress Test 1-14,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,2,0,0
+1667989321886,1,CREATE Cover Photo,200,OK,Stress Test 1-14,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989321887,1,UPDATE Cover Photo,200,OK,Stress Test 1-14,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989321888,1,DELETE Cover Photo,200,OK,Stress Test 1-14,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989321889,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-14,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/4,1,0,0
+1667989322166,13,GET All Activities,200,OK,Stress Test 1-15,text,true,,3079,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,13,0,12
+1667989322180,1,GET Activity By Id,200,OK,Stress Test 1-15,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989322181,1,CREATE Activity,200,OK,Stress Test 1-15,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989322182,1,UPDATE Activity,200,OK,Stress Test 1-15,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989322184,0,DELETE Activity,200,OK,Stress Test 1-15,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,0,0,0
+1667989322185,5,GET All Books,200,OK,Stress Test 1-15,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989322190,3,GET Book By Id,200,OK,Stress Test 1-15,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,3,0,0
+1667989322194,1,CREATE Book,200,OK,Stress Test 1-15,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989322195,2,UPDATE Book,200,OK,Stress Test 1-15,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,2,0,0
+1667989322197,1,DELETE Book,200,OK,Stress Test 1-15,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989322198,2,GET All Users,200,OK,Stress Test 1-15,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989322200,1,GET User By Id,200,OK,Stress Test 1-15,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989322201,1,CREATE User,200,OK,Stress Test 1-15,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989322202,2,UPDATE User,200,OK,Stress Test 1-15,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,2,0,0
+1667989322204,1,DELETE User,200,OK,Stress Test 1-15,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989322205,3,GET All Authors,200,OK,Stress Test 1-15,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989322208,2,GET Author By Id,200,OK,Stress Test 1-15,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989322210,1,CREATE Author,200,OK,Stress Test 1-15,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989322211,1,UPDATE Author,200,OK,Stress Test 1-15,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989322212,1,DELETE Author,200,OK,Stress Test 1-15,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989322213,1,Get All Author By IDBook,200,OK,Stress Test 1-15,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/5,1,0,0
+1667989322214,2,GET All Cover Photos,200,OK,Stress Test 1-15,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989322216,1,GET Cover Photo By Id,200,OK,Stress Test 1-15,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989322217,2,CREATE Cover Photo,200,OK,Stress Test 1-15,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989322219,1,UPDATE Cover Photo,200,OK,Stress Test 1-15,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989322220,1,DELETE Cover Photo,200,OK,Stress Test 1-15,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989322221,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-15,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/5,1,0,0
+1667989322501,12,GET All Activities,200,OK,Stress Test 1-16,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,10
+1667989322513,1,GET Activity By Id,200,OK,Stress Test 1-16,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989322514,1,CREATE Activity,200,OK,Stress Test 1-16,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989322516,1,UPDATE Activity,200,OK,Stress Test 1-16,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989322517,1,DELETE Activity,200,OK,Stress Test 1-16,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989322518,5,GET All Books,200,OK,Stress Test 1-16,text,true,,97507,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989322523,3,GET Book By Id,200,OK,Stress Test 1-16,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,3,0,0
+1667989322527,1,CREATE Book,200,OK,Stress Test 1-16,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989322528,1,UPDATE Book,200,OK,Stress Test 1-16,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989322529,1,DELETE Book,200,OK,Stress Test 1-16,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989322531,1,GET All Users,200,OK,Stress Test 1-16,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989322532,1,GET User By Id,200,OK,Stress Test 1-16,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989322533,1,CREATE User,200,OK,Stress Test 1-16,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989322534,1,UPDATE User,200,OK,Stress Test 1-16,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989322535,1,DELETE User,200,OK,Stress Test 1-16,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989322536,3,GET All Authors,200,OK,Stress Test 1-16,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989322540,1,GET Author By Id,200,OK,Stress Test 1-16,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989322541,1,CREATE Author,200,OK,Stress Test 1-16,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989322542,2,UPDATE Author,200,OK,Stress Test 1-16,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,2,0,0
+1667989322544,1,DELETE Author,200,OK,Stress Test 1-16,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989322545,2,Get All Author By IDBook,200,OK,Stress Test 1-16,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/6,2,0,0
+1667989322547,2,GET All Cover Photos,200,OK,Stress Test 1-16,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989322549,1,GET Cover Photo By Id,200,OK,Stress Test 1-16,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989322551,1,CREATE Cover Photo,200,OK,Stress Test 1-16,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989322552,1,UPDATE Cover Photo,200,OK,Stress Test 1-16,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989322553,1,DELETE Cover Photo,200,OK,Stress Test 1-16,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989322555,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-16,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/6,1,0,0
+1667989322837,11,GET All Activities,200,OK,Stress Test 1-17,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989322848,1,GET Activity By Id,200,OK,Stress Test 1-17,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989322849,1,CREATE Activity,200,OK,Stress Test 1-17,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989322850,1,UPDATE Activity,200,OK,Stress Test 1-17,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989322851,2,DELETE Activity,200,OK,Stress Test 1-17,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989322853,5,GET All Books,200,OK,Stress Test 1-17,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989322858,3,GET Book By Id,200,OK,Stress Test 1-17,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,3,0,0
+1667989322861,1,CREATE Book,200,OK,Stress Test 1-17,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989322863,1,UPDATE Book,200,OK,Stress Test 1-17,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989322864,1,DELETE Book,200,OK,Stress Test 1-17,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989322865,1,GET All Users,200,OK,Stress Test 1-17,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989322866,1,GET User By Id,200,OK,Stress Test 1-17,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989322867,1,CREATE User,200,OK,Stress Test 1-17,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989322868,1,UPDATE User,200,OK,Stress Test 1-17,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989322869,1,DELETE User,200,OK,Stress Test 1-17,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989322870,2,GET All Authors,200,OK,Stress Test 1-17,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989322872,1,GET Author By Id,200,OK,Stress Test 1-17,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989322873,2,CREATE Author,200,OK,Stress Test 1-17,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989322875,1,UPDATE Author,200,OK,Stress Test 1-17,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989322876,1,DELETE Author,200,OK,Stress Test 1-17,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989322877,1,Get All Author By IDBook,200,OK,Stress Test 1-17,text,true,,411,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/7,1,0,0
+1667989322878,1,GET All Cover Photos,200,OK,Stress Test 1-17,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989322880,1,GET Cover Photo By Id,200,OK,Stress Test 1-17,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989322881,0,CREATE Cover Photo,200,OK,Stress Test 1-17,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,0,0,0
+1667989322882,0,UPDATE Cover Photo,200,OK,Stress Test 1-17,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,0,0,0
+1667989322883,0,DELETE Cover Photo,200,OK,Stress Test 1-17,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,0,0,0
+1667989322883,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-17,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/7,1,0,0
+1667989323166,13,GET All Activities,200,OK,Stress Test 1-18,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,13,0,11
+1667989323179,2,GET Activity By Id,200,OK,Stress Test 1-18,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989323181,1,CREATE Activity,200,OK,Stress Test 1-18,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989323182,2,UPDATE Activity,200,OK,Stress Test 1-18,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989323184,1,DELETE Activity,200,OK,Stress Test 1-18,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989323185,6,GET All Books,200,OK,Stress Test 1-18,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989323191,4,GET Book By Id,200,OK,Stress Test 1-18,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,4,0,0
+1667989323195,1,CREATE Book,200,OK,Stress Test 1-18,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989323196,1,UPDATE Book,200,OK,Stress Test 1-18,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989323197,1,DELETE Book,200,OK,Stress Test 1-18,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989323198,1,GET All Users,200,OK,Stress Test 1-18,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323199,1,GET User By Id,200,OK,Stress Test 1-18,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989323200,1,CREATE User,200,OK,Stress Test 1-18,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323201,1,UPDATE User,200,OK,Stress Test 1-18,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989323203,0,DELETE User,200,OK,Stress Test 1-18,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,0,0,0
+1667989323203,2,GET All Authors,200,OK,Stress Test 1-18,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989323206,1,GET Author By Id,200,OK,Stress Test 1-18,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989323207,1,CREATE Author,200,OK,Stress Test 1-18,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989323208,1,UPDATE Author,200,OK,Stress Test 1-18,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989323209,1,DELETE Author,200,OK,Stress Test 1-18,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989323211,1,Get All Author By IDBook,200,OK,Stress Test 1-18,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/8,1,0,0
+1667989323212,1,GET All Cover Photos,200,OK,Stress Test 1-18,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989323213,1,GET Cover Photo By Id,200,OK,Stress Test 1-18,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989323215,0,CREATE Cover Photo,200,OK,Stress Test 1-18,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,0,0,0
+1667989323216,0,UPDATE Cover Photo,200,OK,Stress Test 1-18,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,0,0,0
+1667989323217,0,DELETE Cover Photo,200,OK,Stress Test 1-18,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,0,0,0
+1667989323217,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-18,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/8,1,0,0
+1667989323500,11,GET All Activities,200,OK,Stress Test 1-19,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989323511,2,GET Activity By Id,200,OK,Stress Test 1-19,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989323513,1,CREATE Activity,200,OK,Stress Test 1-19,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989323514,2,UPDATE Activity,200,OK,Stress Test 1-19,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,2,0,0
+1667989323516,1,DELETE Activity,200,OK,Stress Test 1-19,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989323518,4,GET All Books,200,OK,Stress Test 1-19,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989323522,3,GET Book By Id,200,OK,Stress Test 1-19,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,3,0,0
+1667989323525,2,CREATE Book,200,OK,Stress Test 1-19,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989323527,1,UPDATE Book,200,OK,Stress Test 1-19,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989323528,2,DELETE Book,200,OK,Stress Test 1-19,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,2,0,0
+1667989323530,1,GET All Users,200,OK,Stress Test 1-19,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323531,2,GET User By Id,200,OK,Stress Test 1-19,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989323533,1,CREATE User,200,OK,Stress Test 1-19,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323534,2,UPDATE User,200,OK,Stress Test 1-19,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,2,0,0
+1667989323536,1,DELETE User,200,OK,Stress Test 1-19,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989323537,2,GET All Authors,200,OK,Stress Test 1-19,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989323539,2,GET Author By Id,200,OK,Stress Test 1-19,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,2,0,0
+1667989323541,1,CREATE Author,200,OK,Stress Test 1-19,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989323542,1,UPDATE Author,200,OK,Stress Test 1-19,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989323543,1,DELETE Author,200,OK,Stress Test 1-19,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989323544,1,Get All Author By IDBook,200,OK,Stress Test 1-19,text,true,,411,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/9,1,0,0
+1667989323546,1,GET All Cover Photos,200,OK,Stress Test 1-19,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989323547,2,GET Cover Photo By Id,200,OK,Stress Test 1-19,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,2,0,0
+1667989323549,1,CREATE Cover Photo,200,OK,Stress Test 1-19,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989323550,1,UPDATE Cover Photo,200,OK,Stress Test 1-19,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989323551,1,DELETE Cover Photo,200,OK,Stress Test 1-19,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989323553,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-19,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/9,1,0,0
+1667989323845,10,GET All Activities,200,OK,Stress Test 1-20,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,10,0,9
+1667989323856,1,GET Activity By Id,200,OK,Stress Test 1-20,text,true,,353,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989323857,1,CREATE Activity,200,OK,Stress Test 1-20,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989323859,1,UPDATE Activity,200,OK,Stress Test 1-20,text,true,,262,315,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989323861,1,DELETE Activity,200,OK,Stress Test 1-20,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989323862,4,GET All Books,200,OK,Stress Test 1-20,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989323866,4,GET Book By Id,200,OK,Stress Test 1-20,text,true,,744,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,4,0,0
+1667989323870,1,CREATE Book,200,OK,Stress Test 1-20,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989323872,1,UPDATE Book,200,OK,Stress Test 1-20,text,true,,413,387,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,1,0,0
+1667989323873,1,DELETE Book,200,OK,Stress Test 1-20,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,1,0,0
+1667989323874,1,GET All Users,200,OK,Stress Test 1-20,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323875,1,GET User By Id,200,OK,Stress Test 1-20,text,true,,313,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989323876,1,CREATE User,200,OK,Stress Test 1-20,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989323878,0,UPDATE User,200,OK,Stress Test 1-20,text,true,,318,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,0,0,0
+1667989323879,0,DELETE User,200,OK,Stress Test 1-20,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,0,0,0
+1667989323880,1,GET All Authors,200,OK,Stress Test 1-20,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989323881,1,GET Author By Id,200,OK,Stress Test 1-20,text,true,,333,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989323883,0,CREATE Author,200,OK,Stress Test 1-20,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,0,0,0
+1667989323884,0,UPDATE Author,200,OK,Stress Test 1-20,text,true,,325,291,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,0,0,0
+1667989323885,0,DELETE Author,200,OK,Stress Test 1-20,,true,,211,205,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,0,0,0
+1667989323885,1,Get All Author By IDBook,200,OK,Stress Test 1-20,text,true,,413,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/10,1,0,0
+1667989323887,1,GET All Cover Photos,200,OK,Stress Test 1-20,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989323888,1,GET Cover Photo By Id,200,OK,Stress Test 1-20,text,true,,360,187,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989323889,1,CREATE Cover Photo,200,OK,Stress Test 1-20,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989323890,1,UPDATE Cover Photo,200,OK,Stress Test 1-20,text,true,,313,278,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989323891,1,DELETE Cover Photo,200,OK,Stress Test 1-20,,true,,211,209,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989323892,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-20,text,true,,362,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/10,1,0,0
+1667989324180,10,GET All Activities,200,OK,Stress Test 1-21,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,10,0,9
+1667989324190,1,GET Activity By Id,200,OK,Stress Test 1-21,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,1,0,0
+1667989324191,1,CREATE Activity,200,OK,Stress Test 1-21,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989324192,1,UPDATE Activity,200,OK,Stress Test 1-21,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,1,0,0
+1667989324194,0,DELETE Activity,200,OK,Stress Test 1-21,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,0,0,0
+1667989324195,3,GET All Books,200,OK,Stress Test 1-21,text,true,,97526,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989324198,4,GET Book By Id,200,OK,Stress Test 1-21,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,4,0,0
+1667989324203,1,CREATE Book,200,OK,Stress Test 1-21,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989324204,1,UPDATE Book,200,OK,Stress Test 1-21,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989324205,1,DELETE Book,200,OK,Stress Test 1-21,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989324206,1,GET All Users,200,OK,Stress Test 1-21,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989324207,1,GET User By Id,200,OK,Stress Test 1-21,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,1,0,0
+1667989324208,1,CREATE User,200,OK,Stress Test 1-21,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989324209,0,UPDATE User,200,OK,Stress Test 1-21,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,0,0,0
+1667989324210,0,DELETE User,200,OK,Stress Test 1-21,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,0,0,0
+1667989324210,2,GET All Authors,200,OK,Stress Test 1-21,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989324212,1,GET Author By Id,200,OK,Stress Test 1-21,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989324214,0,CREATE Author,200,OK,Stress Test 1-21,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,0,0,0
+1667989324215,0,UPDATE Author,200,OK,Stress Test 1-21,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,0,0,0
+1667989324216,0,DELETE Author,200,OK,Stress Test 1-21,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,0,0,0
+1667989324216,1,Get All Author By IDBook,200,OK,Stress Test 1-21,text,true,,477,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/1,1,0,0
+1667989324218,1,GET All Cover Photos,200,OK,Stress Test 1-21,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989324219,1,GET Cover Photo By Id,200,OK,Stress Test 1-21,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989324220,1,CREATE Cover Photo,200,OK,Stress Test 1-21,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989324221,1,UPDATE Cover Photo,200,OK,Stress Test 1-21,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989324222,1,DELETE Cover Photo,200,OK,Stress Test 1-21,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989324223,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-21,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/1,1,0,0
+1667989324497,11,GET All Activities,200,OK,Stress Test 1-22,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989324508,1,GET Activity By Id,200,OK,Stress Test 1-22,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989324509,1,CREATE Activity,200,OK,Stress Test 1-22,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989324510,1,UPDATE Activity,200,OK,Stress Test 1-22,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989324511,1,DELETE Activity,200,OK,Stress Test 1-22,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989324512,4,GET All Books,200,OK,Stress Test 1-22,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989324517,3,GET Book By Id,200,OK,Stress Test 1-22,text,true,,740,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,3,0,0
+1667989324520,1,CREATE Book,200,OK,Stress Test 1-22,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989324521,1,UPDATE Book,200,OK,Stress Test 1-22,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,1,0,0
+1667989324523,0,DELETE Book,200,OK,Stress Test 1-22,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,0,0,0
+1667989324524,0,GET All Users,200,OK,Stress Test 1-22,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,0,0,0
+1667989324525,1,GET User By Id,200,OK,Stress Test 1-22,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989324526,1,CREATE User,200,OK,Stress Test 1-22,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989324527,1,UPDATE User,200,OK,Stress Test 1-22,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989324528,1,DELETE User,200,OK,Stress Test 1-22,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989324529,2,GET All Authors,200,OK,Stress Test 1-22,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989324531,1,GET Author By Id,200,OK,Stress Test 1-22,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989324533,0,CREATE Author,200,OK,Stress Test 1-22,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,0,0,0
+1667989324534,0,UPDATE Author,200,OK,Stress Test 1-22,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,0,0,0
+1667989324534,1,DELETE Author,200,OK,Stress Test 1-22,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989324535,2,Get All Author By IDBook,200,OK,Stress Test 1-22,text,true,,549,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/2,2,0,0
+1667989324537,1,GET All Cover Photos,200,OK,Stress Test 1-22,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989324538,1,GET Cover Photo By Id,200,OK,Stress Test 1-22,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989324539,1,CREATE Cover Photo,200,OK,Stress Test 1-22,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989324540,1,UPDATE Cover Photo,200,OK,Stress Test 1-22,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989324541,1,DELETE Cover Photo,200,OK,Stress Test 1-22,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989324542,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-22,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/2,1,0,0
+1667989324830,11,GET All Activities,200,OK,Stress Test 1-23,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,9
+1667989324841,1,GET Activity By Id,200,OK,Stress Test 1-23,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989324842,1,CREATE Activity,200,OK,Stress Test 1-23,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989324843,2,UPDATE Activity,200,OK,Stress Test 1-23,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,2,0,0
+1667989324845,1,DELETE Activity,200,OK,Stress Test 1-23,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989324846,4,GET All Books,200,OK,Stress Test 1-23,text,true,,97486,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989324850,3,GET Book By Id,200,OK,Stress Test 1-23,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,3,0,0
+1667989324854,1,CREATE Book,200,OK,Stress Test 1-23,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989324855,1,UPDATE Book,200,OK,Stress Test 1-23,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989324856,1,DELETE Book,200,OK,Stress Test 1-23,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989324857,1,GET All Users,200,OK,Stress Test 1-23,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989324858,1,GET User By Id,200,OK,Stress Test 1-23,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989324859,1,CREATE User,200,OK,Stress Test 1-23,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989324860,1,UPDATE User,200,OK,Stress Test 1-23,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989324861,1,DELETE User,200,OK,Stress Test 1-23,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989324862,2,GET All Authors,200,OK,Stress Test 1-23,text,true,,44819,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989324864,1,GET Author By Id,200,OK,Stress Test 1-23,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989324865,1,CREATE Author,200,OK,Stress Test 1-23,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989324866,1,UPDATE Author,200,OK,Stress Test 1-23,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989324867,1,DELETE Author,200,OK,Stress Test 1-23,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989324868,1,Get All Author By IDBook,200,OK,Stress Test 1-23,text,true,,405,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/3,1,0,0
+1667989324869,2,GET All Cover Photos,200,OK,Stress Test 1-23,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989324871,1,GET Cover Photo By Id,200,OK,Stress Test 1-23,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989324872,0,CREATE Cover Photo,200,OK,Stress Test 1-23,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,0,0,0
+1667989324873,0,UPDATE Cover Photo,200,OK,Stress Test 1-23,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,0,0,0
+1667989324873,1,DELETE Cover Photo,200,OK,Stress Test 1-23,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989324874,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-23,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/3,1,0,0
+1667989325172,11,GET All Activities,200,OK,Stress Test 1-24,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,9
+1667989325183,1,GET Activity By Id,200,OK,Stress Test 1-24,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989325184,1,CREATE Activity,200,OK,Stress Test 1-24,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989325185,1,UPDATE Activity,200,OK,Stress Test 1-24,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989325186,1,DELETE Activity,200,OK,Stress Test 1-24,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989325188,3,GET All Books,200,OK,Stress Test 1-24,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989325191,3,GET Book By Id,200,OK,Stress Test 1-24,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,3,0,0
+1667989325195,1,CREATE Book,200,OK,Stress Test 1-24,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989325197,1,UPDATE Book,200,OK,Stress Test 1-24,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989325198,1,DELETE Book,200,OK,Stress Test 1-24,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989325199,1,GET All Users,200,OK,Stress Test 1-24,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989325200,1,GET User By Id,200,OK,Stress Test 1-24,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989325201,1,CREATE User,200,OK,Stress Test 1-24,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989325202,1,UPDATE User,200,OK,Stress Test 1-24,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989325203,1,DELETE User,200,OK,Stress Test 1-24,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,1,0,0
+1667989325204,2,GET All Authors,200,OK,Stress Test 1-24,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989325206,1,GET Author By Id,200,OK,Stress Test 1-24,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989325207,1,CREATE Author,200,OK,Stress Test 1-24,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989325208,1,UPDATE Author,200,OK,Stress Test 1-24,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989325209,1,DELETE Author,200,OK,Stress Test 1-24,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989325211,1,Get All Author By IDBook,200,OK,Stress Test 1-24,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/4,1,0,0
+1667989325212,2,GET All Cover Photos,200,OK,Stress Test 1-24,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989325214,1,GET Cover Photo By Id,200,OK,Stress Test 1-24,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989325215,1,CREATE Cover Photo,200,OK,Stress Test 1-24,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989325217,1,UPDATE Cover Photo,200,OK,Stress Test 1-24,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989325218,0,DELETE Cover Photo,200,OK,Stress Test 1-24,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,0,0,0
+1667989325219,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-24,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/4,0,0,0
+1667989325506,11,GET All Activities,200,OK,Stress Test 1-25,text,true,,3079,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989325518,1,GET Activity By Id,200,OK,Stress Test 1-25,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989325519,1,CREATE Activity,200,OK,Stress Test 1-25,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989325520,1,UPDATE Activity,200,OK,Stress Test 1-25,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989325521,1,DELETE Activity,200,OK,Stress Test 1-25,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989325522,4,GET All Books,200,OK,Stress Test 1-25,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989325527,2,GET Book By Id,200,OK,Stress Test 1-25,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,2,0,0
+1667989325529,1,CREATE Book,200,OK,Stress Test 1-25,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989325531,1,UPDATE Book,200,OK,Stress Test 1-25,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989325532,1,DELETE Book,200,OK,Stress Test 1-25,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989325533,1,GET All Users,200,OK,Stress Test 1-25,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989325534,0,GET User By Id,200,OK,Stress Test 1-25,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,0,0,0
+1667989325534,1,CREATE User,200,OK,Stress Test 1-25,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989325535,1,UPDATE User,200,OK,Stress Test 1-25,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989325536,1,DELETE User,200,OK,Stress Test 1-25,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989325537,2,GET All Authors,200,OK,Stress Test 1-25,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989325539,1,GET Author By Id,200,OK,Stress Test 1-25,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989325541,0,CREATE Author,200,OK,Stress Test 1-25,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,0,0,0
+1667989325541,1,UPDATE Author,200,OK,Stress Test 1-25,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989325542,1,DELETE Author,200,OK,Stress Test 1-25,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989325543,1,Get All Author By IDBook,200,OK,Stress Test 1-25,text,true,,408,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/5,1,0,0
+1667989325544,1,GET All Cover Photos,200,OK,Stress Test 1-25,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989325545,1,GET Cover Photo By Id,200,OK,Stress Test 1-25,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989325546,1,CREATE Cover Photo,200,OK,Stress Test 1-25,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989325547,1,UPDATE Cover Photo,200,OK,Stress Test 1-25,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989325548,1,DELETE Cover Photo,200,OK,Stress Test 1-25,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989325549,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-25,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/5,1,0,0
+1667989325830,11,GET All Activities,200,OK,Stress Test 1-26,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989325841,1,GET Activity By Id,200,OK,Stress Test 1-26,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989325842,1,CREATE Activity,200,OK,Stress Test 1-26,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989325843,1,UPDATE Activity,200,OK,Stress Test 1-26,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989325844,1,DELETE Activity,200,OK,Stress Test 1-26,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989325845,4,GET All Books,200,OK,Stress Test 1-26,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989325850,3,GET Book By Id,200,OK,Stress Test 1-26,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,3,0,0
+1667989325853,1,CREATE Book,200,OK,Stress Test 1-26,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989325854,1,UPDATE Book,200,OK,Stress Test 1-26,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989325855,1,DELETE Book,200,OK,Stress Test 1-26,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989325856,1,GET All Users,200,OK,Stress Test 1-26,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989325857,1,GET User By Id,200,OK,Stress Test 1-26,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,0,0,0
+1667989325858,0,CREATE User,200,OK,Stress Test 1-26,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,0,0,0
+1667989325858,1,UPDATE User,200,OK,Stress Test 1-26,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989325859,1,DELETE User,200,OK,Stress Test 1-26,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989325860,2,GET All Authors,200,OK,Stress Test 1-26,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989325862,1,GET Author By Id,200,OK,Stress Test 1-26,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989325863,2,CREATE Author,200,OK,Stress Test 1-26,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989325865,1,UPDATE Author,200,OK,Stress Test 1-26,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989325866,1,DELETE Author,200,OK,Stress Test 1-26,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989325867,1,Get All Author By IDBook,200,OK,Stress Test 1-26,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/6,1,0,0
+1667989325868,2,GET All Cover Photos,200,OK,Stress Test 1-26,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989325870,1,GET Cover Photo By Id,200,OK,Stress Test 1-26,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989325871,1,CREATE Cover Photo,200,OK,Stress Test 1-26,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989325872,1,UPDATE Cover Photo,200,OK,Stress Test 1-26,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989325873,1,DELETE Cover Photo,200,OK,Stress Test 1-26,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989325874,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-26,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/6,1,0,0
+1667989326163,11,GET All Activities,200,OK,Stress Test 1-27,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,9
+1667989326174,1,GET Activity By Id,200,OK,Stress Test 1-27,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989326175,1,CREATE Activity,200,OK,Stress Test 1-27,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989326176,1,UPDATE Activity,200,OK,Stress Test 1-27,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989326177,1,DELETE Activity,200,OK,Stress Test 1-27,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989326179,3,GET All Books,200,OK,Stress Test 1-27,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989326182,3,GET Book By Id,200,OK,Stress Test 1-27,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,3,0,0
+1667989326185,1,CREATE Book,200,OK,Stress Test 1-27,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989326186,1,UPDATE Book,200,OK,Stress Test 1-27,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989326187,1,DELETE Book,200,OK,Stress Test 1-27,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989326188,1,GET All Users,200,OK,Stress Test 1-27,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326189,1,GET User By Id,200,OK,Stress Test 1-27,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989326190,1,CREATE User,200,OK,Stress Test 1-27,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326191,1,UPDATE User,200,OK,Stress Test 1-27,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989326192,1,DELETE User,200,OK,Stress Test 1-27,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989326193,2,GET All Authors,200,OK,Stress Test 1-27,text,true,,63507,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989326195,1,GET Author By Id,200,OK,Stress Test 1-27,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989326196,1,CREATE Author,200,OK,Stress Test 1-27,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989326197,1,UPDATE Author,200,OK,Stress Test 1-27,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989326198,1,DELETE Author,200,OK,Stress Test 1-27,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989326199,1,Get All Author By IDBook,200,OK,Stress Test 1-27,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/7,1,0,0
+1667989326200,2,GET All Cover Photos,200,OK,Stress Test 1-27,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989326202,1,GET Cover Photo By Id,200,OK,Stress Test 1-27,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989326203,0,CREATE Cover Photo,200,OK,Stress Test 1-27,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,0,0,0
+1667989326204,0,UPDATE Cover Photo,200,OK,Stress Test 1-27,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,0,0,0
+1667989326205,0,DELETE Cover Photo,200,OK,Stress Test 1-27,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,0,0,0
+1667989326205,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-27,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/7,1,0,0
+1667989326500,11,GET All Activities,200,OK,Stress Test 1-28,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989326511,1,GET Activity By Id,200,OK,Stress Test 1-28,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989326512,1,CREATE Activity,200,OK,Stress Test 1-28,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989326513,2,UPDATE Activity,200,OK,Stress Test 1-28,text,true,,262,314,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989326515,1,DELETE Activity,200,OK,Stress Test 1-28,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989326516,4,GET All Books,200,OK,Stress Test 1-28,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989326520,3,GET Book By Id,200,OK,Stress Test 1-28,text,true,,740,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,3,0,0
+1667989326524,1,CREATE Book,200,OK,Stress Test 1-28,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989326525,1,UPDATE Book,200,OK,Stress Test 1-28,text,true,,413,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989326526,1,DELETE Book,200,OK,Stress Test 1-28,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989326527,1,GET All Users,200,OK,Stress Test 1-28,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326528,1,GET User By Id,200,OK,Stress Test 1-28,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989326529,1,CREATE User,200,OK,Stress Test 1-28,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326530,0,UPDATE User,200,OK,Stress Test 1-28,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,0,0,0
+1667989326531,0,DELETE User,200,OK,Stress Test 1-28,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,0,0,0
+1667989326531,2,GET All Authors,200,OK,Stress Test 1-28,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989326533,1,GET Author By Id,200,OK,Stress Test 1-28,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989326535,1,CREATE Author,200,OK,Stress Test 1-28,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989326536,1,UPDATE Author,200,OK,Stress Test 1-28,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989326537,1,DELETE Author,200,OK,Stress Test 1-28,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989326538,1,Get All Author By IDBook,200,OK,Stress Test 1-28,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/8,1,0,0
+1667989326539,1,GET All Cover Photos,200,OK,Stress Test 1-28,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989326540,1,GET Cover Photo By Id,200,OK,Stress Test 1-28,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989326541,1,CREATE Cover Photo,200,OK,Stress Test 1-28,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989326542,1,UPDATE Cover Photo,200,OK,Stress Test 1-28,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989326543,1,DELETE Cover Photo,200,OK,Stress Test 1-28,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,1,0,0
+1667989326544,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-28,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/8,1,0,0
+1667989326832,10,GET All Activities,200,OK,Stress Test 1-29,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,10,0,9
+1667989326842,1,GET Activity By Id,200,OK,Stress Test 1-29,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989326843,1,CREATE Activity,200,OK,Stress Test 1-29,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989326844,1,UPDATE Activity,200,OK,Stress Test 1-29,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989326845,1,DELETE Activity,200,OK,Stress Test 1-29,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989326846,5,GET All Books,200,OK,Stress Test 1-29,text,true,,97387,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989326851,2,GET Book By Id,200,OK,Stress Test 1-29,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,2,0,0
+1667989326854,1,CREATE Book,200,OK,Stress Test 1-29,text,true,,412,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989326855,1,UPDATE Book,200,OK,Stress Test 1-29,text,true,,412,386,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989326856,1,DELETE Book,200,OK,Stress Test 1-29,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989326857,1,GET All Users,200,OK,Stress Test 1-29,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326858,1,GET User By Id,200,OK,Stress Test 1-29,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989326859,1,CREATE User,200,OK,Stress Test 1-29,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989326860,1,UPDATE User,200,OK,Stress Test 1-29,text,true,,318,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989326861,1,DELETE User,200,OK,Stress Test 1-29,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989326862,2,GET All Authors,200,OK,Stress Test 1-29,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989326864,2,GET Author By Id,200,OK,Stress Test 1-29,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,2,0,0
+1667989326866,1,CREATE Author,200,OK,Stress Test 1-29,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989326867,1,UPDATE Author,200,OK,Stress Test 1-29,text,true,,325,290,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989326868,1,DELETE Author,200,OK,Stress Test 1-29,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989326870,1,Get All Author By IDBook,200,OK,Stress Test 1-29,text,true,,561,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/9,1,0,0
+1667989326871,1,GET All Cover Photos,200,OK,Stress Test 1-29,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989326873,1,GET Cover Photo By Id,200,OK,Stress Test 1-29,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989326874,1,CREATE Cover Photo,200,OK,Stress Test 1-29,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989326876,1,UPDATE Cover Photo,200,OK,Stress Test 1-29,text,true,,313,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989326877,1,DELETE Cover Photo,200,OK,Stress Test 1-29,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989326878,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-29,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/9,1,0,0
+1667989327164,11,GET All Activities,200,OK,Stress Test 1-30,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989327175,1,GET Activity By Id,200,OK,Stress Test 1-30,text,true,,353,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989327177,1,CREATE Activity,200,OK,Stress Test 1-30,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989327178,1,UPDATE Activity,200,OK,Stress Test 1-30,text,true,,262,315,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989327179,1,DELETE Activity,200,OK,Stress Test 1-30,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989327181,3,GET All Books,200,OK,Stress Test 1-30,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989327184,4,GET Book By Id,200,OK,Stress Test 1-30,text,true,,744,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,4,0,0
+1667989327188,1,CREATE Book,200,OK,Stress Test 1-30,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989327190,0,UPDATE Book,200,OK,Stress Test 1-30,text,true,,413,387,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,0,0,0
+1667989327191,0,DELETE Book,200,OK,Stress Test 1-30,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,0,0,0
+1667989327191,1,GET All Users,200,OK,Stress Test 1-30,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989327192,1,GET User By Id,200,OK,Stress Test 1-30,text,true,,313,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989327193,1,CREATE User,200,OK,Stress Test 1-30,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989327194,1,UPDATE User,200,OK,Stress Test 1-30,text,true,,318,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989327195,1,DELETE User,200,OK,Stress Test 1-30,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989327196,2,GET All Authors,200,OK,Stress Test 1-30,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989327198,1,GET Author By Id,200,OK,Stress Test 1-30,text,true,,333,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989327199,1,CREATE Author,200,OK,Stress Test 1-30,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989327200,1,UPDATE Author,200,OK,Stress Test 1-30,text,true,,325,291,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989327201,1,DELETE Author,200,OK,Stress Test 1-30,,true,,211,205,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989327202,1,Get All Author By IDBook,200,OK,Stress Test 1-30,text,true,,413,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/10,1,0,0
+1667989327203,1,GET All Cover Photos,200,OK,Stress Test 1-30,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989327204,1,GET Cover Photo By Id,200,OK,Stress Test 1-30,text,true,,360,187,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989327205,1,CREATE Cover Photo,200,OK,Stress Test 1-30,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989327206,1,UPDATE Cover Photo,200,OK,Stress Test 1-30,text,true,,313,278,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989327207,1,DELETE Cover Photo,200,OK,Stress Test 1-30,,true,,211,209,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989327208,1,Get All Cover Photos By IDBook,200,OK,Stress Test 1-30,text,true,,362,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/10,1,0,0

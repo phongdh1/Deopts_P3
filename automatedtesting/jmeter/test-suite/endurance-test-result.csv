@@ -1,0 +1,281 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1667989724370,20,GET All Activities,200,OK,Endurance Test 1-1,text,true,,3079,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,20,0,18
+1667989724391,3,GET Activity By Id,200,OK,Endurance Test 1-1,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,3,0,0
+1667989724394,2,CREATE Activity,200,OK,Endurance Test 1-1,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989724396,2,UPDATE Activity,200,OK,Endurance Test 1-1,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,2,0,0
+1667989724398,2,DELETE Activity,200,OK,Endurance Test 1-1,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/1,2,0,0
+1667989724401,6,GET All Books,200,OK,Endurance Test 1-1,text,true,,97371,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,5,0,0
+1667989724407,5,GET Book By Id,200,OK,Endurance Test 1-1,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,5,0,0
+1667989724412,2,CREATE Book,200,OK,Endurance Test 1-1,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989724415,1,UPDATE Book,200,OK,Endurance Test 1-1,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989724416,1,DELETE Book,200,OK,Endurance Test 1-1,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/1,1,0,0
+1667989724417,2,GET All Users,200,OK,Endurance Test 1-1,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989724420,3,GET User By Id,200,OK,Endurance Test 1-1,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,3,0,0
+1667989724423,1,CREATE User,200,OK,Endurance Test 1-1,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724424,2,UPDATE User,200,OK,Endurance Test 1-1,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,2,0,0
+1667989724426,2,DELETE User,200,OK,Endurance Test 1-1,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/1,2,0,0
+1667989724428,3,GET All Authors,200,OK,Endurance Test 1-1,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,3,0,0
+1667989724431,3,GET Author By Id,200,OK,Endurance Test 1-1,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,3,0,0
+1667989724434,1,CREATE Author,200,OK,Endurance Test 1-1,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724435,1,UPDATE Author,200,OK,Endurance Test 1-1,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989724436,1,DELETE Author,200,OK,Endurance Test 1-1,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/1,1,0,0
+1667989724437,2,Get All Author By IDBook,200,OK,Endurance Test 1-1,text,true,,477,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/1,2,0,0
+1667989724439,2,GET All Cover Photos,200,OK,Endurance Test 1-1,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989724441,2,GET Cover Photo By Id,200,OK,Endurance Test 1-1,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,2,0,0
+1667989724443,1,CREATE Cover Photo,200,OK,Endurance Test 1-1,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724444,1,UPDATE Cover Photo,200,OK,Endurance Test 1-1,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,1,0,0
+1667989724446,0,DELETE Cover Photo,200,OK,Endurance Test 1-1,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/1,0,0,0
+1667989724447,1,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-1,text,true,,358,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/books/covers/1,1,0,0
+1667989724448,2,HTTP 404 Request,404,Not Found,Endurance Test 1-1,text,false,,442,176,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/404,2,0,0
+1667989724449,14,GET All Activities,200,OK,Endurance Test 1-2,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,14,0,13
+1667989724463,2,GET Activity By Id,200,OK,Endurance Test 1-2,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,2,0,0
+1667989724465,2,CREATE Activity,200,OK,Endurance Test 1-2,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989724467,2,UPDATE Activity,200,OK,Endurance Test 1-2,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,2,0,0
+1667989724469,1,DELETE Activity,200,OK,Endurance Test 1-2,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/2,1,0,0
+1667989724470,4,GET All Books,200,OK,Endurance Test 1-2,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989724475,4,GET Book By Id,200,OK,Endurance Test 1-2,text,true,,740,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,4,0,0
+1667989724479,1,CREATE Book,200,OK,Endurance Test 1-2,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989724480,1,UPDATE Book,200,OK,Endurance Test 1-2,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,1,0,0
+1667989724481,1,DELETE Book,200,OK,Endurance Test 1-2,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/2,1,0,0
+1667989724483,0,GET All Users,200,OK,Endurance Test 1-2,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,0,0,0
+1667989724483,2,GET User By Id,200,OK,Endurance Test 1-2,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,2,0,0
+1667989724485,1,CREATE User,200,OK,Endurance Test 1-2,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724486,2,UPDATE User,200,OK,Endurance Test 1-2,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,2,0,0
+1667989724488,1,DELETE User,200,OK,Endurance Test 1-2,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/2,1,0,0
+1667989724489,2,GET All Authors,200,OK,Endurance Test 1-2,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724491,2,GET Author By Id,200,OK,Endurance Test 1-2,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,2,0,0
+1667989724493,1,CREATE Author,200,OK,Endurance Test 1-2,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724494,1,UPDATE Author,200,OK,Endurance Test 1-2,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989724495,1,DELETE Author,200,OK,Endurance Test 1-2,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/2,1,0,0
+1667989724496,2,Get All Author By IDBook,200,OK,Endurance Test 1-2,text,true,,405,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/2,2,0,0
+1667989724498,2,GET All Cover Photos,200,OK,Endurance Test 1-2,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724500,2,GET Cover Photo By Id,200,OK,Endurance Test 1-2,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,2,0,0
+1667989724502,1,CREATE Cover Photo,200,OK,Endurance Test 1-2,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724503,2,UPDATE Cover Photo,200,OK,Endurance Test 1-2,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,2,0,0
+1667989724505,1,DELETE Cover Photo,200,OK,Endurance Test 1-2,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/2,1,0,0
+1667989724506,1,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-2,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/2,1,0,0
+1667989724507,2,HTTP 404 Request,404,Not Found,Endurance Test 1-2,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,2,0,0
+1667989724561,11,GET All Activities,200,OK,Endurance Test 1-3,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989724573,1,GET Activity By Id,200,OK,Endurance Test 1-3,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989724574,2,CREATE Activity,200,OK,Endurance Test 1-3,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989724576,1,UPDATE Activity,200,OK,Endurance Test 1-3,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989724577,1,DELETE Activity,200,OK,Endurance Test 1-3,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/3,1,0,0
+1667989724579,5,GET All Books,200,OK,Endurance Test 1-3,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989724584,6,GET Book By Id,200,OK,Endurance Test 1-3,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,5,0,0
+1667989724590,1,CREATE Book,200,OK,Endurance Test 1-3,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989724591,1,UPDATE Book,200,OK,Endurance Test 1-3,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989724593,1,DELETE Book,200,OK,Endurance Test 1-3,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/3,1,0,0
+1667989724594,0,GET All Users,200,OK,Endurance Test 1-3,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,0,0,0
+1667989724595,1,GET User By Id,200,OK,Endurance Test 1-3,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989724596,1,CREATE User,200,OK,Endurance Test 1-3,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724597,1,UPDATE User,200,OK,Endurance Test 1-3,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,1,0,0
+1667989724599,0,DELETE User,200,OK,Endurance Test 1-3,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/3,0,0,0
+1667989724599,2,GET All Authors,200,OK,Endurance Test 1-3,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989724601,2,GET Author By Id,200,OK,Endurance Test 1-3,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,2,0,0
+1667989724603,1,CREATE Author,200,OK,Endurance Test 1-3,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724604,1,UPDATE Author,200,OK,Endurance Test 1-3,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,1,0,0
+1667989724606,0,DELETE Author,200,OK,Endurance Test 1-3,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/3,0,0,0
+1667989724606,2,Get All Author By IDBook,200,OK,Endurance Test 1-3,text,true,,405,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/3,2,0,0
+1667989724608,1,GET All Cover Photos,200,OK,Endurance Test 1-3,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724609,2,GET Cover Photo By Id,200,OK,Endurance Test 1-3,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,2,0,0
+1667989724611,1,CREATE Cover Photo,200,OK,Endurance Test 1-3,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724612,2,UPDATE Cover Photo,200,OK,Endurance Test 1-3,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,2,0,0
+1667989724614,1,DELETE Cover Photo,200,OK,Endurance Test 1-3,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/3,1,0,0
+1667989724615,2,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-3,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/3,2,0,0
+1667989724617,1,HTTP 404 Request,404,Not Found,Endurance Test 1-3,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989724659,12,GET All Activities,200,OK,Endurance Test 1-4,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,11
+1667989724671,2,GET Activity By Id,200,OK,Endurance Test 1-4,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,2,0,0
+1667989724673,2,CREATE Activity,200,OK,Endurance Test 1-4,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989724675,1,UPDATE Activity,200,OK,Endurance Test 1-4,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989724677,1,DELETE Activity,200,OK,Endurance Test 1-4,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/4,1,0,0
+1667989724678,64,GET All Books,200,OK,Endurance Test 1-4,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,63,0,0
+1667989724742,3,GET Book By Id,200,OK,Endurance Test 1-4,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,3,0,0
+1667989724746,1,CREATE Book,200,OK,Endurance Test 1-4,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989724747,1,UPDATE Book,200,OK,Endurance Test 1-4,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989724748,1,DELETE Book,200,OK,Endurance Test 1-4,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/4,1,0,0
+1667989724749,1,GET All Users,200,OK,Endurance Test 1-4,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724750,2,GET User By Id,200,OK,Endurance Test 1-4,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,2,0,0
+1667989724752,2,CREATE User,200,OK,Endurance Test 1-4,text,true,,315,272,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989724754,2,UPDATE User,200,OK,Endurance Test 1-4,text,true,,315,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,2,0,0
+1667989724756,2,DELETE User,200,OK,Endurance Test 1-4,,true,,211,202,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/users/4,2,0,0
+1667989724758,2,GET All Authors,200,OK,Endurance Test 1-4,text,true,,31723,180,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989724760,3,GET Author By Id,200,OK,Endurance Test 1-4,text,true,,330,182,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,3,0,0
+1667989724763,2,CREATE Author,200,OK,Endurance Test 1-4,text,true,,321,285,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989724765,1,UPDATE Author,200,OK,Endurance Test 1-4,text,true,,321,286,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,1,0,0
+1667989724766,2,DELETE Author,200,OK,Endurance Test 1-4,,true,,211,204,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/authors/4,2,0,0
+1667989724753,15,GET All Activities,200,OK,Endurance Test 1-5,text,true,,3109,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,15,0,14
+1667989724768,2,Get All Author By IDBook,200,OK,Endurance Test 1-4,text,true,,405,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/authors/books/4,2,0,0
+1667989724769,2,GET Activity By Id,200,OK,Endurance Test 1-5,text,true,,352,185,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,2,0,0
+1667989724770,2,GET All Cover Photos,200,OK,Endurance Test 1-4,text,true,,20739,184,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989724771,2,CREATE Activity,200,OK,Endurance Test 1-5,text,true,,262,310,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,2,0,0
+1667989724773,1,UPDATE Activity,200,OK,Endurance Test 1-5,text,true,,262,311,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,1,0,0
+1667989724773,1,GET Cover Photo By Id,200,OK,Endurance Test 1-4,text,true,,356,186,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989724774,2,DELETE Activity,200,OK,Endurance Test 1-5,,true,,211,207,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/5,2,0,0
+1667989724775,1,CREATE Cover Photo,200,OK,Endurance Test 1-4,text,true,,310,273,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724776,1,UPDATE Cover Photo,200,OK,Endurance Test 1-4,text,true,,310,274,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,1,0,0
+1667989724777,2,DELETE Cover Photo,200,OK,Endurance Test 1-4,,true,,211,208,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/4,2,0,0
+1667989724776,5,GET All Books,200,OK,Endurance Test 1-5,text,true,,97525,178,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989724779,2,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-4,text,true,,358,183,2,2,https://ducda-appservice-webapp.azurewebsites.net/books/covers/4,2,0,0
+1667989724781,1,HTTP 404 Request,404,Not Found,Endurance Test 1-4,text,false,,442,176,2,2,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989724781,4,GET Book By Id,200,OK,Endurance Test 1-5,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,4,0,0
+1667989724785,2,CREATE Book,200,OK,Endurance Test 1-5,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989724787,1,UPDATE Book,200,OK,Endurance Test 1-5,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989724788,1,DELETE Book,200,OK,Endurance Test 1-5,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/5,1,0,0
+1667989724789,1,GET All Users,200,OK,Endurance Test 1-5,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724791,1,GET User By Id,200,OK,Endurance Test 1-5,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989724793,1,CREATE User,200,OK,Endurance Test 1-5,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724794,1,UPDATE User,200,OK,Endurance Test 1-5,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,1,0,0
+1667989724795,2,DELETE User,200,OK,Endurance Test 1-5,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/5,2,0,0
+1667989724797,2,GET All Authors,200,OK,Endurance Test 1-5,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989724799,2,GET Author By Id,200,OK,Endurance Test 1-5,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,2,0,0
+1667989724802,1,CREATE Author,200,OK,Endurance Test 1-5,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724803,1,UPDATE Author,200,OK,Endurance Test 1-5,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989724804,1,DELETE Author,200,OK,Endurance Test 1-5,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/5,1,0,0
+1667989724805,1,Get All Author By IDBook,200,OK,Endurance Test 1-5,text,true,,408,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/5,1,0,0
+1667989724806,2,GET All Cover Photos,200,OK,Endurance Test 1-5,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989724808,1,GET Cover Photo By Id,200,OK,Endurance Test 1-5,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989724809,1,CREATE Cover Photo,200,OK,Endurance Test 1-5,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724810,1,UPDATE Cover Photo,200,OK,Endurance Test 1-5,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989724811,1,DELETE Cover Photo,200,OK,Endurance Test 1-5,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/5,1,0,0
+1667989724812,1,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-5,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/5,1,0,0
+1667989724813,1,HTTP 404 Request,404,Not Found,Endurance Test 1-5,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989724852,10,GET All Activities,200,OK,Endurance Test 1-6,text,true,,3079,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,10,0,9
+1667989724862,1,GET Activity By Id,200,OK,Endurance Test 1-6,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989724864,1,CREATE Activity,200,OK,Endurance Test 1-6,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989724865,2,UPDATE Activity,200,OK,Endurance Test 1-6,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,2,0,0
+1667989724870,1,DELETE Activity,200,OK,Endurance Test 1-6,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/6,1,0,0
+1667989724872,4,GET All Books,200,OK,Endurance Test 1-6,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989724876,4,GET Book By Id,200,OK,Endurance Test 1-6,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,4,0,0
+1667989724880,2,CREATE Book,200,OK,Endurance Test 1-6,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989724882,1,UPDATE Book,200,OK,Endurance Test 1-6,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989724883,1,DELETE Book,200,OK,Endurance Test 1-6,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/6,1,0,0
+1667989724885,1,GET All Users,200,OK,Endurance Test 1-6,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,0,0,0
+1667989724886,1,GET User By Id,200,OK,Endurance Test 1-6,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989724887,2,CREATE User,200,OK,Endurance Test 1-6,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,2,0,0
+1667989724889,1,UPDATE User,200,OK,Endurance Test 1-6,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,1,0,0
+1667989724890,2,DELETE User,200,OK,Endurance Test 1-6,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/6,2,0,0
+1667989724892,2,GET All Authors,200,OK,Endurance Test 1-6,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989724894,2,GET Author By Id,200,OK,Endurance Test 1-6,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,2,0,0
+1667989724897,1,CREATE Author,200,OK,Endurance Test 1-6,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724898,1,UPDATE Author,200,OK,Endurance Test 1-6,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,1,0,0
+1667989724899,2,DELETE Author,200,OK,Endurance Test 1-6,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/6,2,0,0
+1667989724901,2,Get All Author By IDBook,200,OK,Endurance Test 1-6,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/6,2,0,0
+1667989724903,2,GET All Cover Photos,200,OK,Endurance Test 1-6,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989724905,2,GET Cover Photo By Id,200,OK,Endurance Test 1-6,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,2,0,0
+1667989724907,1,CREATE Cover Photo,200,OK,Endurance Test 1-6,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724908,1,UPDATE Cover Photo,200,OK,Endurance Test 1-6,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989724910,1,DELETE Cover Photo,200,OK,Endurance Test 1-6,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/6,1,0,0
+1667989724911,2,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-6,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/6,2,0,0
+1667989724913,1,HTTP 404 Request,404,Not Found,Endurance Test 1-6,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989724951,12,GET All Activities,200,OK,Endurance Test 1-7,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,12,0,11
+1667989724963,2,GET Activity By Id,200,OK,Endurance Test 1-7,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989724965,1,CREATE Activity,200,OK,Endurance Test 1-7,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989724966,2,UPDATE Activity,200,OK,Endurance Test 1-7,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,2,0,0
+1667989724968,1,DELETE Activity,200,OK,Endurance Test 1-7,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/7,1,0,0
+1667989724969,4,GET All Books,200,OK,Endurance Test 1-7,text,true,,97477,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989724973,4,GET Book By Id,200,OK,Endurance Test 1-7,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,4,0,0
+1667989724977,1,CREATE Book,200,OK,Endurance Test 1-7,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989724978,1,UPDATE Book,200,OK,Endurance Test 1-7,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989724979,1,DELETE Book,200,OK,Endurance Test 1-7,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/7,1,0,0
+1667989724980,1,GET All Users,200,OK,Endurance Test 1-7,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724981,1,GET User By Id,200,OK,Endurance Test 1-7,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989724982,1,CREATE User,200,OK,Endurance Test 1-7,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989724983,1,UPDATE User,200,OK,Endurance Test 1-7,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989724984,1,DELETE User,200,OK,Endurance Test 1-7,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/7,1,0,0
+1667989724985,1,GET All Authors,200,OK,Endurance Test 1-7,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724986,1,GET Author By Id,200,OK,Endurance Test 1-7,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989724987,1,CREATE Author,200,OK,Endurance Test 1-7,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989724988,1,UPDATE Author,200,OK,Endurance Test 1-7,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989724989,1,DELETE Author,200,OK,Endurance Test 1-7,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/7,1,0,0
+1667989724991,2,Get All Author By IDBook,200,OK,Endurance Test 1-7,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/7,2,0,0
+1667989724993,2,GET All Cover Photos,200,OK,Endurance Test 1-7,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,2,0,0
+1667989724995,1,GET Cover Photo By Id,200,OK,Endurance Test 1-7,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989724996,1,CREATE Cover Photo,200,OK,Endurance Test 1-7,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989724997,1,UPDATE Cover Photo,200,OK,Endurance Test 1-7,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989724998,1,DELETE Cover Photo,200,OK,Endurance Test 1-7,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/7,1,0,0
+1667989724999,1,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-7,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/7,1,0,0
+1667989725000,1,HTTP 404 Request,404,Not Found,Endurance Test 1-7,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989725055,9,GET All Activities,200,OK,Endurance Test 1-8,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,9,0,8
+1667989725064,2,GET Activity By Id,200,OK,Endurance Test 1-8,text,true,,351,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,2,0,0
+1667989725066,1,CREATE Activity,200,OK,Endurance Test 1-8,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989725067,1,UPDATE Activity,200,OK,Endurance Test 1-8,text,true,,262,312,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989725068,1,DELETE Activity,200,OK,Endurance Test 1-8,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/8,1,0,0
+1667989725069,4,GET All Books,200,OK,Endurance Test 1-8,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989725073,3,GET Book By Id,200,OK,Endurance Test 1-8,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,3,0,0
+1667989725076,1,CREATE Book,200,OK,Endurance Test 1-8,text,true,,408,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989725077,1,UPDATE Book,200,OK,Endurance Test 1-8,text,true,,408,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989725078,1,DELETE Book,200,OK,Endurance Test 1-8,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/8,1,0,0
+1667989725079,1,GET All Users,200,OK,Endurance Test 1-8,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725080,1,GET User By Id,200,OK,Endurance Test 1-8,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989725081,1,CREATE User,200,OK,Endurance Test 1-8,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725082,1,UPDATE User,200,OK,Endurance Test 1-8,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989725083,1,DELETE User,200,OK,Endurance Test 1-8,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/8,1,0,0
+1667989725084,1,GET All Authors,200,OK,Endurance Test 1-8,text,true,,47615,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989725085,2,GET Author By Id,200,OK,Endurance Test 1-8,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,2,0,0
+1667989725087,1,CREATE Author,200,OK,Endurance Test 1-8,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989725088,1,UPDATE Author,200,OK,Endurance Test 1-8,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,1,0,0
+1667989725089,0,DELETE Author,200,OK,Endurance Test 1-8,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/8,0,0,0
+1667989725089,2,Get All Author By IDBook,200,OK,Endurance Test 1-8,text,true,,486,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/8,2,0,0
+1667989725091,1,GET All Cover Photos,200,OK,Endurance Test 1-8,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725092,2,GET Cover Photo By Id,200,OK,Endurance Test 1-8,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,2,0,0
+1667989725094,1,CREATE Cover Photo,200,OK,Endurance Test 1-8,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725095,0,UPDATE Cover Photo,200,OK,Endurance Test 1-8,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,0,0,0
+1667989725096,0,DELETE Cover Photo,200,OK,Endurance Test 1-8,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/8,0,0,0
+1667989725096,1,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-8,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/8,1,0,0
+1667989725097,1,HTTP 404 Request,404,Not Found,Endurance Test 1-8,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989725151,9,GET All Activities,200,OK,Endurance Test 1-9,text,true,,3079,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,9,0,8
+1667989725161,1,GET Activity By Id,200,OK,Endurance Test 1-9,text,true,,352,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989725162,1,CREATE Activity,200,OK,Endurance Test 1-9,text,true,,262,310,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989725164,1,UPDATE Activity,200,OK,Endurance Test 1-9,text,true,,262,311,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,1,0,0
+1667989725165,0,DELETE Activity,200,OK,Endurance Test 1-9,,true,,211,207,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/9,0,0,0
+1667989725165,4,GET All Books,200,OK,Endurance Test 1-9,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,4,0,0
+1667989725169,3,GET Book By Id,200,OK,Endurance Test 1-9,text,true,,741,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,3,0,0
+1667989725172,1,CREATE Book,200,OK,Endurance Test 1-9,text,true,,407,380,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,1,0,0
+1667989725173,1,UPDATE Book,200,OK,Endurance Test 1-9,text,true,,407,381,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989725174,1,DELETE Book,200,OK,Endurance Test 1-9,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/9,1,0,0
+1667989725175,1,GET All Users,200,OK,Endurance Test 1-9,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725176,1,GET User By Id,200,OK,Endurance Test 1-9,text,true,,310,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989725177,1,CREATE User,200,OK,Endurance Test 1-9,text,true,,315,272,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725178,1,UPDATE User,200,OK,Endurance Test 1-9,text,true,,315,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989725179,1,DELETE User,200,OK,Endurance Test 1-9,,true,,211,202,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/9,1,0,0
+1667989725180,1,GET All Authors,200,OK,Endurance Test 1-9,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989725182,1,GET Author By Id,200,OK,Endurance Test 1-9,text,true,,330,182,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989725183,1,CREATE Author,200,OK,Endurance Test 1-9,text,true,,321,285,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989725184,1,UPDATE Author,200,OK,Endurance Test 1-9,text,true,,321,286,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989725185,1,DELETE Author,200,OK,Endurance Test 1-9,,true,,211,204,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/9,1,0,0
+1667989725186,2,Get All Author By IDBook,200,OK,Endurance Test 1-9,text,true,,411,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/9,2,0,0
+1667989725188,1,GET All Cover Photos,200,OK,Endurance Test 1-9,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725189,2,GET Cover Photo By Id,200,OK,Endurance Test 1-9,text,true,,356,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,2,0,0
+1667989725191,1,CREATE Cover Photo,200,OK,Endurance Test 1-9,text,true,,310,273,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725192,1,UPDATE Cover Photo,200,OK,Endurance Test 1-9,text,true,,310,274,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989725193,1,DELETE Cover Photo,200,OK,Endurance Test 1-9,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/9,1,0,0
+1667989725194,2,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-9,text,true,,358,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/9,2,0,0
+1667989725196,1,HTTP 404 Request,404,Not Found,Endurance Test 1-9,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
+1667989725250,11,GET All Activities,200,OK,Endurance Test 1-10,text,true,,3109,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,11,0,10
+1667989725261,1,GET Activity By Id,200,OK,Endurance Test 1-10,text,true,,353,186,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989725262,1,CREATE Activity,200,OK,Endurance Test 1-10,text,true,,262,313,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities,1,0,0
+1667989725263,2,UPDATE Activity,200,OK,Endurance Test 1-10,text,true,,262,315,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,2,0,0
+1667989725265,1,DELETE Activity,200,OK,Endurance Test 1-10,,true,,211,208,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/Activities/10,1,0,0
+1667989725266,3,GET All Books,200,OK,Endurance Test 1-10,text,true,,97539,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,3,0,0
+1667989725270,3,GET Book By Id,200,OK,Endurance Test 1-10,text,true,,744,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,3,0,0
+1667989725273,2,CREATE Book,200,OK,Endurance Test 1-10,text,true,,413,385,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books,2,0,0
+1667989725275,1,UPDATE Book,200,OK,Endurance Test 1-10,text,true,,413,387,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,1,0,0
+1667989725276,1,DELETE Book,200,OK,Endurance Test 1-10,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/books/10,1,0,0
+1667989725277,1,GET All Users,200,OK,Endurance Test 1-10,text,true,,784,178,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725278,2,GET User By Id,200,OK,Endurance Test 1-10,text,true,,313,181,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,2,0,0
+1667989725280,1,CREATE User,200,OK,Endurance Test 1-10,text,true,,318,275,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users,1,0,0
+1667989725281,1,UPDATE User,200,OK,Endurance Test 1-10,text,true,,318,277,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989725282,1,DELETE User,200,OK,Endurance Test 1-10,,true,,211,203,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/users/10,1,0,0
+1667989725283,2,GET All Authors,200,OK,Endurance Test 1-10,text,true,,31723,180,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,2,0,0
+1667989725285,3,GET Author By Id,200,OK,Endurance Test 1-10,text,true,,333,183,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,3,0,0
+1667989725288,1,CREATE Author,200,OK,Endurance Test 1-10,text,true,,325,289,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors,1,0,0
+1667989725289,1,UPDATE Author,200,OK,Endurance Test 1-10,text,true,,325,291,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989725290,1,DELETE Author,200,OK,Endurance Test 1-10,,true,,211,205,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/authors/10,1,0,0
+1667989725291,2,Get All Author By IDBook,200,OK,Endurance Test 1-10,text,true,,489,185,1,1,https://ducda-appservice-webapp.azurewebsites.net/authors/books/10,2,0,0
+1667989725293,1,GET All Cover Photos,200,OK,Endurance Test 1-10,text,true,,20739,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725294,2,GET Cover Photo By Id,200,OK,Endurance Test 1-10,text,true,,360,187,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,2,0,0
+1667989725296,1,CREATE Cover Photo,200,OK,Endurance Test 1-10,text,true,,313,276,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos,1,0,0
+1667989725297,1,UPDATE Cover Photo,200,OK,Endurance Test 1-10,text,true,,313,278,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989725298,1,DELETE Cover Photo,200,OK,Endurance Test 1-10,,true,,211,209,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/coverphotos/10,1,0,0
+1667989725299,2,Get All Cover Photos By IDBook,200,OK,Endurance Test 1-10,text,true,,362,184,1,1,https://ducda-appservice-webapp.azurewebsites.net/books/covers/10,2,0,0
+1667989725301,1,HTTP 404 Request,404,Not Found,Endurance Test 1-10,text,false,,442,176,1,1,https://ducda-appservice-webapp.azurewebsites.net/api/404,1,0,0
