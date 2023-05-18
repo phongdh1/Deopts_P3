@@ -1,0 +1,32 @@
+Starting the browser...
+Browser started successfully. Navigating to the demo page to login.
+2023-05-15 11:34:52.238159: Login with username standard_user and password secret_sauce successfully
+Adding items to cart...
+Cart is empty.
+2023-05-15 11:34:52.459891: Sauce Labs Bike Light added to cart.
+Number of items in the cart: 1.
+2023-05-15 11:34:52.692039: Sauce Labs Bolt T-Shirt added to cart.
+Number of items in the cart: 2.
+2023-05-15 11:34:52.915461: Sauce Labs Onesie added to cart.
+Number of items in the cart: 3.
+2023-05-15 11:34:53.147897: Test.allTheThings() T-Shirt (Red) added to cart.
+Number of items in the cart: 4.
+2023-05-15 11:34:53.360326: Sauce Labs Backpack added to cart.
+Number of items in the cart: 5.
+2023-05-15 11:34:53.578262: Sauce Labs Fleece Jacket added to cart.
+Number of items in the cart: 6.
+6 items added to cart.
+---------------------------
+Removing items from cart...
+2023-05-15 11:34:53.820766: Sauce Labs Bike Light removed from cart.
+Number of items in the cart: 5.
+2023-05-15 11:34:54.009070: Sauce Labs Bolt T-Shirt removed from cart.
+Number of items in the cart: 4.
+2023-05-15 11:34:54.203851: Sauce Labs Onesie removed from cart.
+Number of items in the cart: 3.
+2023-05-15 11:34:54.391527: Test.allTheThings() T-Shirt (Red) removed from cart.
+Number of items in the cart: 2.
+2023-05-15 11:34:54.577224: Sauce Labs Backpack removed from cart.
+Number of items in the cart: 1.
+2023-05-15 11:34:54.761228: Sauce Labs Fleece Jacket removed from cart.
+Number of items in the cart: 0.
