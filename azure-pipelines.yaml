@@ -30,6 +30,12 @@ stages:
     #--------------------------------------------#  
     # Use Terraform to create the Infrastructure      
     # Install Terraform on the pipeline agent 
+    - task: ChocolateyInstaller@1
+      displayName: 'Install Terraform'
+      inputs:
+        packageName: 'terraform'
+        version: '1.2.9'
+    
     - task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@0
       displayName: 'Terrafom installation'
       inputs:
